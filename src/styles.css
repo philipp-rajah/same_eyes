@@ -45,8 +45,8 @@ styles used throughout the app
   display: flex;
   justify-content: space-around;
   background-color: black;
-  padding: 1.5%;
-  width: 400px;
+  padding: 10px;
+  width: 320px;
   border-radius: 1%;
   position: fixed;
   bottom: 0;

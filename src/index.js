@@ -70,6 +70,16 @@ const App = () => {
           />
         </a>
         <a
+         href="https://www.instagram.com/sameeyesmusic/"
+         target="_blank"
+         rel="noopener noreferrer"
+        >
+          <img
+           src={process.env.PUBLIC_URL + "/images/icons/instagram.png"}
+           className="app_sm_icon"
+          />
+        </a>
+        <a
          href="https://www.youtube.com/channel/UCxNno7iaI2Ejn5RHR4Ad9sw"
          target="_blank"
          rel="noopener noreferrer"

@@ -45,15 +45,18 @@ screen
 
 .home_desperate_logo {
   background-color: white;
+  border-radius: 100%;
   width: 35%
 }
 
 #home_albumCover {
   margin-top: 2%;
   width: 55%;
+  border-radius: 0%;
 }
 
 #home_desparateAdjustments {
+  font-size: 18px;
   width: 45%;
 }
 
