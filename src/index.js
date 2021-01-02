@@ -14,6 +14,8 @@ import {
   Route,
   Switch
 } from "react-router-dom";
+import { Cascader } from "antd";
+import { MenuOutlined } from "@ant-design/icons";
 import reportWebVitals from "./reportWebVitals";
 
 // Importing scrrens
@@ -21,9 +23,20 @@ import Home from "./screens/home/";
 
 // Ipmorting styles
 import "./styles.css";
+import "antd/dist/antd.css";
 
 // Defining app
 const App = () => {
+
+  // Defining menu options
+  const menuOptions = [
+    "About",
+    "Media",
+    "Desperate Ones",
+    "Newest Works",
+    "Contact Us"
+  ];
+
   return (
     <Router className="app_screen_container">
       <div className="app_header_container">
@@ -31,6 +44,7 @@ const App = () => {
          Sam<span className="app_header_title_eyes">e</span>
          Ey<span className="app_header_title_eyes">e</span>s
          </center>
+         <h1 className="test">he</h1>
       </div>
       <Switch>
         <Route exact path="/" component={Home} />

@@ -17,10 +17,12 @@ import "./styles.css";
 
 // Defining home component
 const Home = (props) => {
+
   return (
     <div className="home_screen_container">
       <iframe
        className="home_media"
+       id="home_video"
        width="100%"
        height="600px"
        background-color="black"
@@ -87,6 +89,10 @@ const Home = (props) => {
           />
         </center>
       </div>
+      <img
+       className="home_media"
+       src={process.env.PUBLIC_URL + "/images/same_eyes_both_one.png"}
+      />
       <div className="home_section_div" id="home_contact">
         <center>
           <div className="home_title" id="home_contact_text">

@@ -65,3 +65,7 @@ screen
 #home_contact_text {
   color: black;
 }
+
+#home_video {
+  margin-bottom: -6px;
+}
