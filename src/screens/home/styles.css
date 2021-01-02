@@ -1,0 +1,67 @@
+/*
+Philipp M. Srivastava
+2021-01-01
+
+Filename: styles.css
+Description: this file contains
+styles used throughout the Home
+screen
+*/
+
+.home_section_div {
+  padding: 5%;
+  background-color: black;
+}
+
+.home_title {
+  font-family: "Times New Roman";
+  font-size: 28px;
+  color: white;
+}
+
+.home_text {
+  font-family: "Times New Roman";
+  font-size: 18px;
+  color: white;
+}
+
+.home_text_large {
+  font-family: "Times New Roman";
+  font-size: 24px;
+  color: white;
+}
+
+.home_media {
+  width: 100%;
+  margin-bottom: -4px
+}
+
+.home_text_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.home_desperate_logo {
+  background-color: white;
+  border-radius: 100%;
+  width: 35%
+}
+
+.home_albumCover {
+  margin-top: 2%;
+  width: 40%;
+}
+
+#home_desparateAdjustments {
+  width: 45%;
+}
+
+#home_contact {
+  background-color: white;
+}
+
+#home_contact_text {
+  color: black;
+}
