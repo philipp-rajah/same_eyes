@@ -119,6 +119,7 @@ const Home = (props) => {
           <br/>
           <span className="home_text_large" id="home_contact_text">
           United States</span><br/>
+          <br/><br/>
         </center>
       </div>
     </div>

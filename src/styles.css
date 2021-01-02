@@ -40,3 +40,20 @@ styles used throughout the app
   color: white;
   font-size: 100%;
 }
+
+.app_footer_container {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  padding: 1.5%;
+  width: 400px;
+  border-radius: 1%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  border-radius: 10px;
+}
+
+.app_sm_icon {
+  width: 50px;
+}

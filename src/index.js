@@ -48,6 +48,48 @@ const App = () => {
       <Switch>
         <Route exact path="/" component={Home} />
       </Switch>
+      <div className="app_footer_container">
+        <a
+         href="https://sameeyes.bandcamp.com/"
+         target="_blank"
+         rel="noopener noreferrer"
+        >
+          <img
+           src={process.env.PUBLIC_URL + "/images/icons/bandcamp.png"}
+           className="app_sm_icon"
+          />
+        </a>
+        <a
+         href="https://open.spotify.com/artist/4FgcfyIpQvBbL61ZuOJtYR?si=2LyN66uZSImCCTC1ofO4yQ"
+         target="_blank"
+         rel="noopener noreferrer"
+        >
+          <img
+           src={process.env.PUBLIC_URL + "/images/icons/spotify.png"}
+           className="app_sm_icon"
+          />
+        </a>
+        <a
+         href="https://www.youtube.com/channel/UCxNno7iaI2Ejn5RHR4Ad9sw"
+         target="_blank"
+         rel="noopener noreferrer"
+        >
+          <img
+           src={process.env.PUBLIC_URL + "/images/icons/youtube.png"}
+           className="app_sm_icon"
+          />
+        </a>
+        <a
+         href="https://music.apple.com/gb/artist/same-eyes/1503377567"
+         target="_blank"
+         rel="noopener noreferrer"
+        >
+          <img
+           src={process.env.PUBLIC_URL + "/images/icons/apple.svg"}
+           className="app_sm_icon"
+          />
+        </a>
+      </div>
     </Router>
   );
 };
