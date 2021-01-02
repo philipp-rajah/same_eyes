@@ -44,7 +44,6 @@ const App = () => {
          Sam<span className="app_header_title_eyes">e</span>
          Ey<span className="app_header_title_eyes">e</span>s
          </center>
-         <h1 className="test">he</h1>
       </div>
       <Switch>
         <Route exact path="/" component={Home} />
