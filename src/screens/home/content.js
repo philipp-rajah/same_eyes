@@ -44,7 +44,8 @@ const content = [
       type: "text",
       title: "Desperate Ones",
       largeContent: true,
-      desperateOnes: true,
+      containsMedia: true,
+      album: false,
       media: "/images/desperrateones.png",
       content: `Desperate Ones is an independent record label based out of Ann
        Arbor Michigan run by Same Eyes. We use it to put out our records and
@@ -54,6 +55,19 @@ const content = [
     {
       type: "img",
       source: "images/chad.png"
+    },
+    {
+      type: "text",
+      title: "Newest Works",
+      largeContent: true,
+      containsMedia: true,
+      album: true,
+      media: "/images/sameeyes.png",
+      content: `"Parties to End"`
+    },
+    {
+      type: "img",
+      source: "images/same_eyes_both_one.png"
     }
 ];
 

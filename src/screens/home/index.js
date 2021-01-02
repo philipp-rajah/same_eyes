@@ -42,15 +42,16 @@ const Home = (props) => {
                     <span className="home_title">{c.title}</span>
                     <div className="home_text_container">
                       {
-                        c.desperateOnes &&
+                        c.containsMedia &&
                         <img
                          className="home_desperate_logo"
+                         id={c.album && "home_albumCover"}
                          src={process.env.PUBLIC_URL + c.media}
                         />
                       }
                       <p
                        className={c.largeContent ? "home_text_large" : "home_text"}
-                       id={c.desperateOnes && "home_desparateAdjustments"}
+                       id={c.containsMedia && "home_desparateAdjustments"}
                        >
                        {c.content}
                       </p>
@@ -78,21 +79,6 @@ const Home = (props) => {
           }
         })
       }
-      <div className="home_section_div">
-        <center>
-          <div className="home_title">
-            Newest Works
-          </div>
-          <img
-           className="home_albumCover"
-           src={process.env.PUBLIC_URL + "/images/sameeyes.png"}
-          />
-        </center>
-      </div>
-      <img
-       className="home_media"
-       src={process.env.PUBLIC_URL + "/images/same_eyes_both_one.png"}
-      />
       <div className="home_section_div" id="home_contact">
         <center>
           <div className="home_title" id="home_contact_text">
