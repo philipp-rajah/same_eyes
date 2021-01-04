@@ -18,7 +18,8 @@ styles used throughout the app
   background-color: black;
   width: 100%;
   position: fixed;
-  height: 7%;
+  justify-content: center;
+  height: 72px;
 }
 
 .app_header_title {
@@ -26,6 +27,7 @@ styles used throughout the app
   color: white;
   font-family: 'Rock Salt', cursive;
   align-self: center;
+  margin-top: 7px;
 }
 
 .app_header_title_eyes {

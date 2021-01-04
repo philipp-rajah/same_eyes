@@ -11,6 +11,19 @@
 const content = [
     {
       type: "text",
+      title: "Parties to End",
+      largeContent: true,
+      containsMedia: true,
+      album: true,
+      media: "/images/sameeyes.png",
+      content: `"Parties to End"`
+    },
+    {
+      type: "img",
+      source: "images/same_eyes_both_one.png"
+    },
+    {
+      type: "text",
       title: "About",
       largeContent: false,
       content: `Same Eyes is based in Ann Arbor Michigan and consists of Alex Hughes and Chad Pratt.
@@ -34,7 +47,7 @@ const content = [
       largeContent: true,
       content: `"A recent discovery, the Ann Arbor duo Same Eyes makes fantastic synth-pop songs
        that would be at home on a John Hughes soundtrack or on the NewRetroWave label"`,
-      source: "PULP"
+      source: "Christopher Porter, Ann Arbor PULP"
     },
     {
       type: "img",
@@ -55,19 +68,6 @@ const content = [
     {
       type: "img",
       source: "images/chad.png"
-    },
-    {
-      type: "text",
-      title: "Newest Works",
-      largeContent: true,
-      containsMedia: true,
-      album: true,
-      media: "/images/sameeyes.png",
-      content: `"Parties to End"`
-    },
-    {
-      type: "img",
-      source: "images/same_eyes_both_one.png"
     }
 ];
 
