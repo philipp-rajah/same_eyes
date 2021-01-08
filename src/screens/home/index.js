@@ -31,6 +31,30 @@ const Home = (props) => {
        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
        allowfullscreen>
       </iframe>
+      <div className="home_section_div">
+        <center>
+          <span className="home_title">Parties to End</span>
+          <div className="home_text_container">
+            <img
+             className="home_desperate_logo"
+             id={"home_albumCover"}
+             src={process.env.PUBLIC_URL + "/images/sameeyes.png"}
+            />
+            <p
+             className={"home_text"}
+             >
+             Same Eyes debut Lp, Parties To End, is out January 22nd.
+             Listen
+             <a
+              className={"home_text"}
+              href="https://sameeyes.bandcamp.com/"
+             >
+              &nbsp;here.
+            </a>
+            </p>
+          </div>
+        </center>
+      </div>
       {
         content.map((c, index) => {
           // switching on content type
@@ -45,7 +69,6 @@ const Home = (props) => {
                         c.containsMedia &&
                         <img
                          className="home_desperate_logo"
-                         id={c.album && "home_albumCover"}
                          src={process.env.PUBLIC_URL + c.media}
                         />
                       }
