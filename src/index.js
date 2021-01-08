@@ -14,8 +14,6 @@ import {
   Route,
   Switch
 } from "react-router-dom";
-import { Cascader } from "antd";
-import { MenuOutlined } from "@ant-design/icons";
 import reportWebVitals from "./reportWebVitals";
 
 // Importing scrrens
@@ -23,19 +21,9 @@ import Home from "./screens/home/";
 
 // Ipmorting styles
 import "./styles.css";
-import "antd/dist/antd.css";
 
 // Defining app
 const App = () => {
-
-  // Defining menu options
-  const menuOptions = [
-    "About",
-    "Media",
-    "Desperate Ones",
-    "Newest Works",
-    "Contact Us"
-  ];
 
   return (
     <Router className="app_screen_container">
@@ -56,7 +44,6 @@ const App = () => {
         >
           <img
            src={process.env.PUBLIC_URL + "/images/icons/bandcamp.png"}
-           className="app_sm_icon"
           />
         </a>
         <a
@@ -66,7 +53,6 @@ const App = () => {
         >
           <img
            src={process.env.PUBLIC_URL + "/images/icons/spotify.png"}
-           className="app_sm_icon"
           />
         </a>
         <a
@@ -76,7 +62,6 @@ const App = () => {
         >
           <img
            src={process.env.PUBLIC_URL + "/images/icons/instagram.png"}
-           className="app_sm_icon"
           />
         </a>
         <a
@@ -86,7 +71,6 @@ const App = () => {
         >
           <img
            src={process.env.PUBLIC_URL + "/images/icons/youtube.png"}
-           className="app_sm_icon"
           />
         </a>
         <a
@@ -96,7 +80,6 @@ const App = () => {
         >
           <img
            src={process.env.PUBLIC_URL + "/images/icons/apple.svg"}
-           className="app_sm_icon"
           />
         </a>
       </div>
