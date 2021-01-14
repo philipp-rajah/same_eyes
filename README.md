@@ -1,6 +1,12 @@
-# Getting Started with Create React App
+# Getting Started with Same Eyes
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+This website was created for same eyes, a up and coming 80s synth band based out of Ann Arbor Michigan.
+
+# Follow this link:
+
+(https://www.sameeyesmusic.com)
 
 ## Available Scripts
 
